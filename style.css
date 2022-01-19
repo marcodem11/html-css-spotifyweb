@@ -11,21 +11,21 @@
 .side-bar{
     flex-basis: 225px;
     height: 100vh;
-    border: 2px solid red;
+    
     background-color: black;
 }
 
 .main-wrap{
     flex-grow: 1;
     background-color: grey;
-    border: 2px solid blue;
+    
     overflow-y:scroll;
     position: relative;
 }
 
 .bottom-bar{
     height: 89px;
-    border: 2px solid greenyellow;
+    display: flex;
     background-color: rgb(56, 54, 54);
     position: fixed;
     bottom: 0;
@@ -35,10 +35,63 @@
 
 .topstatic-bar{
     height: 86px;
-    border: 2px solid violet;
+    
     background-color: rgb(56, 54, 54);
     position: fixed;
     top: 0;
     left: 225px;
     width: 100%;
+}
+
+.leftbox-music{
+    display: flex;
+    width: 224px;
+    height: 74px;
+    
+}
+
+.sinister-boxmusic{
+    width: 42px;
+    height: 42px;
+    padding-left: 10px;
+    padding-top: 22px;
+    
+}
+
+.titlesinister-boxmusic{
+    padding-left: 20px;
+    padding-top: 28px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.name-boxmusicsinister{
+    color: grey;
+    font-size: 12px;
+}
+
+.icon-boxmusicsinister{
+    display: flex;
+    width: 50px;
+    height: 22px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.sinister-heart{
+    color: rgb(179, 172, 172);
+    font-size: 6px;
+}
+
+.sinister-folder{
+    color: rgb(179, 172, 172);
+    font-size: 6px;
+}
+
+.centerbox-music{
+    display: flex;
+    width: 524px;
+    height: 75px;
+    border: 1px solid orange;
 }
