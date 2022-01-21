@@ -1,0 +1,43 @@
+@media screen and (max-width: 978px) {
+    .card {
+      gap: 2%;
+    }
+    .wrap-card {
+      width: calc(92% / 5);
+    }
+  
+    .name-song {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 870px) {
+    .card {
+      gap: 2%;
+    }
+    .wrap-card {
+      width: calc(92% / 4);
+    }
+  
+    .name-song {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 750px) and (max-width: 870px) {
+    .card {
+      gap: 3%;
+    }
+    .wrap-card {
+      width: calc(93% / 3);
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .card {
+      gap: 4%;
+    }
+    .wrap-card {
+      width: calc(94% / 2);
+    }
+  }
