@@ -8,6 +8,8 @@
     display: flex;
 }
 
+/* SIDE BAR */
+
 .side-bar{
     width: 225px;
     height: 100vh;
@@ -19,7 +21,7 @@
     width: 100%;
     max-width: 230px;
     height: 87px;
-    border: 1px solid cyan;
+    /*border: 1px solid cyan;*/
     padding-top: 17px;
     padding-left: 17px;
 }
@@ -28,7 +30,7 @@
     width: 100%;
     max-width: 230px;
     height: 100px;
-    border: 1px solid rgb(255, 2, 255);
+    /*border: 1px solid rgb(255, 2, 255);*/
 }
 
 .second-tooles{
@@ -60,7 +62,7 @@
     width: 100%;
     max-width: 230px;
     height: 336px;
-    border: 1px solid rgb(10, 250, 1);
+    /*border: 1px solid rgb(10, 250, 1);*/
 }
 
 .titolo-playlist{
@@ -104,7 +106,7 @@
     max-width: 225px;
     height: 80px;
     position: fixed;
-    top: 682px;
+    top: 782px;
     left: 0;
     border: 1px solid salmon;
 }
@@ -128,14 +130,116 @@
     font-size: 15px;
 }
 
+/* MAIN WRAP */
 
 .main-wrap{
     flex-grow: 1;
-    background-color: grey;
+    background-color: #141922;
     
     overflow-y:scroll;
     position: relative;
 }
+
+.main-content {  
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+  }
+  
+  .categories li {
+      list-style: none;
+      display: inline;
+      color: #747272;  
+      padding: 0 10px;     
+  }
+
+  .categories li a {
+      text-transform: uppercase;
+      color: #747272;  
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+  }
+
+  /*CENTRO MAIN*/
+
+.sect-card{
+    padding: 15px;
+}
+
+.card{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap ;
+    text-align: center;
+
+}
+
+.wrap-card {
+    width: calc(90% / 6);
+}
+
+.wrap-card figure {
+  position: relative;
+}
+
+.wrap-card i {
+  font-size: 60px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.wrap-card:hover i {
+  display:inline;
+  color: yellowgreen;
+}
+
+
+.title-card{
+ padding-bottom: 6px;
+ color: white;
+}
+
+.comment__title-card{
+  padding: 10px 0;
+}
+
+.suggeriti{
+  color: #747272;
+  font-weight: 700;
+  font-size: 14px;
+
+  
+}
+
+.wrap-title {
+  padding: 10px;
+  text-align: center;
+}
+.name-song {
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: white;
+}
+ .subtitle{
+  font-size: 14px;
+  font-weight: 700;
+  color: #747272;
+  
+}
+
+.circle img{
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+
+/* BOTTOM BAR */
 
 .bottom-bar{
     height: 89px;
@@ -147,6 +251,8 @@
     width: 100%;
     justify-content: space-between;
 }
+
+/* TOP BAR*/
 
 .topstatic-bar{
     height: 86px;
@@ -195,7 +301,7 @@
     display: flex;
     width: 100%;
     max-width: 250px;
-    border: 1px solid rgb(30, 255, 0);
+    /*border: 1px solid rgb(30, 255, 0);*/
 }
 
 .sinister-boxmusic{
